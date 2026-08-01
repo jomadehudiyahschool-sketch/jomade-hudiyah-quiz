@@ -18,7 +18,7 @@ const [showAnswer, setShowAnswer] = useState(false);
 
         const res = await axios.get(
 
-            "http://localhost:5000/api/quiz/status"
+            "https://jomade-hudiyah-backend.onrender.com/api/quiz/status"
 
         );
 
@@ -103,7 +103,7 @@ socket.on("next-question",(status)=>{
 
         await axios.post(
 
-            "http://localhost:5000/api/quiz/start",
+            "https://jomade-hudiyah-backend.onrender.com/api/quiz/start",
 
             {
 
@@ -119,7 +119,7 @@ socket.on("next-question",(status)=>{
 
         await axios.post(
 
-            "http://localhost:5000/api/quiz/next"
+            "https://jomade-hudiyah-backend.onrender.com/api/quiz/next"
 
         );
 
@@ -129,7 +129,7 @@ socket.on("next-question",(status)=>{
 
         await axios.post(
 
-            "http://localhost:5000/api/quiz/pause"
+            "https://jomade-hudiyah-backend.onrender.com/api/quiz/pause"
 
         );
 
@@ -139,7 +139,7 @@ socket.on("next-question",(status)=>{
 
         await axios.post(
 
-            "http://localhost:5000/api/quiz/resume"
+            "https://jomade-hudiyah-backend.onrender.com/api/quiz/resume"
 
         );
 
@@ -153,7 +153,7 @@ socket.on("next-question",(status)=>{
 
         await axios.post(
 
-            "http://localhost:5000/api/quiz/stop"
+            "https://jomade-hudiyah-backend.onrender.com/api/quiz/stop"
 
         );
 

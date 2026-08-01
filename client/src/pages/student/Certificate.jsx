@@ -25,7 +25,7 @@ export default function Certificate() {
 
             const res = await axios.get(
 
-                `http://localhost:5000/api/certificates/${id}`
+                `https://jomade-hudiyah-backend.onrender.com/api/certificates/${id}`
 
             );
 

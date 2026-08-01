@@ -9,7 +9,7 @@ export default function Participants() {
     const loadParticipants = async () => {
 
         const res = await axios.get(
-            "http://localhost:5000/api/participants"
+            "https://jomade-hudiyah-backend.onrender.com/api/participants"
         );
 
         setParticipants(res.data);
@@ -28,7 +28,7 @@ export default function Participants() {
             return;
 
         await axios.delete(
-            `http://localhost:5000/api/participants/${id}`
+            `https://jomade-hudiyah-backend.onrender.com/api/participants/${id}`
         );
 
         loadParticipants();

@@ -20,7 +20,7 @@ export default function Settings() {
         try {
 
             const res = await axios.get(
-                "http://localhost:5000/api/competition"
+                "https://jomade-hudiyah-backend.onrender.com/api/competition"
             );
 
             setTimer(res.data.timer);
@@ -41,7 +41,7 @@ export default function Settings() {
         try {
 
             await axios.put(
-                "http://localhost:5000/api/competition",
+                "https://jomade-hudiyah-backend.onrender.com/api/competition",
                 {
                     timer,
                     wrongMark,

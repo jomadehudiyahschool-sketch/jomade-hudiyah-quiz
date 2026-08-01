@@ -12,7 +12,7 @@ export default function LiveLeaderboard() {
         try {
 
             const res = await axios.get(
-                "http://localhost:5000/api/participants"
+                "https://jomade-hudiyah-backend.onrender.com/api/participants"
             );
 
             const sorted = [...res.data].sort(

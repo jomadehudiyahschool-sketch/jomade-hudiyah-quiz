@@ -47,7 +47,7 @@ export default function Waiting() {
   const loadParticipants = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/participants"
+        "https://jomade-hudiyah-backend.onrender.com/api/participants"
       );
 
       setParticipants(res.data);

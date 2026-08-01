@@ -142,7 +142,7 @@ socket.on("quiz-ended",()=>{
 
             const res = await axios.post(
 
-                "http://localhost:5000/api/answers",
+                "https://jomade-hudiyah-backend.onrender.com/api/answers",
 
                 {
 

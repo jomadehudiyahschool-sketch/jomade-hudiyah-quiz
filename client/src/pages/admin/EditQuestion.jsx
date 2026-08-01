@@ -33,7 +33,7 @@ export default function EditQuestion() {
 
         const res = await axios.get(
 
-            `http://localhost:5000/api/questions/${id}`
+            `https://jomade-hudiyah-backend.onrender.com/api/questions/${id}`
 
         );
 
@@ -69,7 +69,7 @@ export default function EditQuestion() {
 
         await axios.put(
 
-            `http://localhost:5000/api/questions/${id}`,
+            `https://jomade-hudiyah-backend.onrender.com/api/questions/${id}`,
 
             form,
 

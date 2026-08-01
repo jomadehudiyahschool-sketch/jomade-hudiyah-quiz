@@ -12,7 +12,7 @@ export default function QuestionManager() {
         try{
 
             const res = await axios.get(
-                "http://localhost:5000/api/questions"
+                "https://jomade-hudiyah-backend.onrender.com/api/questions"
             );
 
             setQuestions(res.data.questions);

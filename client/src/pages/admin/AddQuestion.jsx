@@ -70,7 +70,7 @@ export default function AddQuestion() {
 
             await axios.post(
 
-                "http://localhost:5000/api/questions",
+                "https://jomade-hudiyah-backend.onrender.com/api/questions",
 
                 form,
 

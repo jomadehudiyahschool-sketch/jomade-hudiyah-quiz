@@ -39,7 +39,7 @@ socket.off("time-up");
         try {
 
             const res = await axios.get(
-                "http://localhost:5000/api/participants"
+                "https://jomade-hudiyah-backend.onrender.com/api/participants"
             );
 
             const sorted = [...res.data].sort(
@@ -82,7 +82,7 @@ socket.off("time-up");
 
         window.open(
 
-            "http://localhost:5000/api/certificates/download/all",
+            "https://jomade-hudiyah-backend.onrender.com/api/certificates/download/all",
 
             "_blank"
 
@@ -164,7 +164,7 @@ socket.off("time-up");
                                         <button
                                             onClick={() =>
                                                 window.open(
-    `http://localhost:5000/api/certificates/${student._id}`,
+    `https://jomade-hudiyah-backend.onrender.com/api/certificates/${student._id}`,
     "_blank"
 )
                                             }

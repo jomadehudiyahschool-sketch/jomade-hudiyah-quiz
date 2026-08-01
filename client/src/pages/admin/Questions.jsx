@@ -23,7 +23,7 @@ export default function Questions() {
 
             const res = await axios.get(
 
-                "http://localhost:5000/api/questions"
+                "https://jomade-hudiyah-backend.onrender.com/api/questions"
 
             );
 
@@ -67,7 +67,7 @@ export default function Questions() {
 
             await axios.delete(
 
-                `http://localhost:5000/api/questions/${id}`,
+                `https://jomade-hudiyah-backend.onrender.com/api/questions/${id}`,
 
                 {
 

@@ -13,7 +13,7 @@ export default function Join() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/participants/join",
+        "https://jomade-hudiyah-backend.onrender.com/api/participants/join",
         {
           name: name.trim(),
         }

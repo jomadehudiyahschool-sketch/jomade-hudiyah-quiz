@@ -60,7 +60,7 @@ export default function Dashboard() {
 
             const res=await axios.get(
 
-                "http://localhost:5000/api/participants"
+                "https://jomade-hudiyah-backend.onrender.com/api/participants"
 
             );
 
@@ -92,7 +92,7 @@ export default function Dashboard() {
 
             const res=await axios.get(
 
-                "http://localhost:5000/api/quiz/status"
+                "https://jomade-hudiyah-backend.onrender.com/api/quiz/status"
 
             );
 
@@ -118,7 +118,7 @@ export default function Dashboard() {
 
             const res=await axios.get(
 
-                "http://localhost:5000/api/competition"
+                "https://jomade-hudiyah-backend.onrender.com/api/competition"
 
             );
 
@@ -315,7 +315,7 @@ export default function Dashboard() {
 
             await axios.put(
 
-                "http://localhost:5000/api/competition",
+                "https://jomade-hudiyah-backend.onrender.com/api/competition",
 
                 {
 
@@ -361,7 +361,7 @@ export default function Dashboard() {
 
             await axios.post(
 
-                "http://localhost:5000/api/quiz/start",
+                "https://jomade-hudiyah-backend.onrender.com/api/quiz/start",
 
                 {
 
@@ -410,7 +410,7 @@ export default function Dashboard() {
 
             await axios.post(
 
-                "http://localhost:5000/api/quiz/pause"
+                "https://jomade-hudiyah-backend.onrender.com/api/quiz/pause"
 
             );
 
@@ -448,7 +448,7 @@ export default function Dashboard() {
 
             await axios.post(
 
-                "http://localhost:5000/api/quiz/resume"
+                "https://jomade-hudiyah-backend.onrender.com/api/quiz/resume"
 
             );
 
@@ -486,7 +486,7 @@ export default function Dashboard() {
 
             await axios.post(
 
-                "http://localhost:5000/api/quiz/next"
+                "https://jomade-hudiyah-backend.onrender.com/api/quiz/next"
 
             );
 
@@ -526,7 +526,7 @@ export default function Dashboard() {
 
             await axios.post(
 
-                "http://localhost:5000/api/quiz/stop"
+                "https://jomade-hudiyah-backend.onrender.com/api/quiz/stop"
 
             );
 
@@ -574,7 +574,7 @@ export default function Dashboard() {
 
             await axios.delete(
 
-                `http://localhost:5000/api/participants/${id}`
+                `https://jomade-hudiyah-backend.onrender.com/api/participants/${id}`
 
             );
 

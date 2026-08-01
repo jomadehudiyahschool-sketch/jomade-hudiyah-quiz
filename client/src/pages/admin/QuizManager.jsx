@@ -18,7 +18,7 @@ export default function QuizManager() {
     const loadQuestions = async () => {
         try {
             const res = await axios.get(
-                "http://localhost:5000/api/questions"
+                "https://jomade-hudiyah-backend.onrender.com/api/questions"
             );
 
             setQuestions(res.data);
@@ -36,7 +36,7 @@ export default function QuizManager() {
         try {
 
             await axios.post(
-                "http://localhost:5000/api/questions",
+                "https://jomade-hudiyah-backend.onrender.com/api/questions",
                 {
                     question: form.question,
                     options: [
@@ -76,7 +76,7 @@ export default function QuizManager() {
         if (!window.confirm("Delete this question?")) return;
 
         await axios.delete(
-            `http://localhost:5000/api/questions/${id}`
+            `https://jomade-hudiyah-backend.onrender.com/api/questions/${id}`
         );
 
         loadQuestions();
