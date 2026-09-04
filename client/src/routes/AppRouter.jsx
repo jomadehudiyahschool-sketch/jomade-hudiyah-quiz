@@ -9,7 +9,7 @@ import Dashboard from "../pages/admin/Dashboard";
 import Participants from "../pages/admin/Participants";
 import QuizManager from "../pages/admin/QuizManager";
 import LiveQuiz from "../pages/admin/LiveQuiz";
-import Settings from "../pages/admin/Settings";
+import Settings from "../pages/admin/settings";
 import Results from "../pages/admin/Results";
 import Questions from "../pages/admin/Questions";
 import AddQuestion from "../pages/admin/AddQuestion";
